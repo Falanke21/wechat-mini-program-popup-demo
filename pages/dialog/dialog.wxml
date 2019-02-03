@@ -1,0 +1,27 @@
+<!--pages/dialog/dialog.wxml-->
+<text>pages/dialog/dialog.wxml</text>
+
+<button
+  type="primary"
+  class='niceButton'
+  size="{{defaultSize}}"
+  loading="{{loading}}"
+  plain="{{plain}}"
+  disabled="{{disabled}}"
+  bindtap="default"
+  hover-class="other-button-hover"
+>
+  点我
+</button>
+
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="showPopup"> 点我 </button>
+  </view>
+  <popup id='popup' 
+      title='小组件' 
+      content='啊♂' 
+      bind:error="_error"  
+      bind:success="_success">
+  </popup>
+</view>
