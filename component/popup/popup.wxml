@@ -5,6 +5,6 @@
     <view class="wx-popup-con">{{content}}</view>
   
       <image src="{{imageUrl}}"></image>
-    <button bindtap='hidePopup'>点我</button>
+    <button bindtap='hidePopup'>你是我爸</button>
   </view>
 </view>
